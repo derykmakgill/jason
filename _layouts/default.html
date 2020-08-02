@@ -1,0 +1,194 @@
+<html><head>
+    <base href="/">
+    <title>Jason C</title>
+    <meta name="description" content="Projects by Jason Chavannes">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="res/jasonc.png">
+    <link rel="stylesheet" type="text/css" href="res/jasonc.css">
+
+   <style>
+   
+   body {
+    font-family: sans-serif;
+    background-color: #f9fbff;
+    overflow-y: scroll;
+    text-size-adjust: 250%;
+    padding: 0 15px;
+}
+a {
+    color: blue;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: black;
+    text-decoration: none;
+}
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover{
+    text-decoration: none;
+}
+
+pre {
+    font-family: "source-code-pro", monospace;
+}
+pre.wrap {
+    white-space: pre-wrap;
+}
+
+ul {
+    margin: 10px 0;
+}
+.red {
+    color: #c00;
+}
+
+.header {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.container {
+    padding: 0;
+    max-width: 800px;
+    margin: 0 auto;
+    overflow-wrap: break-word;
+}
+.footer {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.footer a {
+    color: black;
+}
+
+.header h1 {
+    margin: 12px 0;
+}
+
+.header h1 a {
+    margin: 12px 0;
+}
+
+.container li {
+    margin-bottom: 12px;
+}
+.container img {
+    max-width: 100%;
+}
+
+/* Blog */
+div.sources {
+    font-style: italic;
+    font-size: 14px;
+    padding-left: 10px;
+}
+ul.sources {
+    word-break: break-all;
+}
+ul.notes {
+    font-style: italic;
+}
+pre.blog {
+    background: #eee;
+    padding: 2px 5px;
+    overflow-x: scroll;
+}
+span.code {
+    background: #eee;
+    font-family: "source-code-pro", monospace;
+}
+.blockquote {
+    font-style: italic;
+}
+.container.blog {
+}
+.container.blog h2 i {
+    font-weight: normal;
+    font-size: 16px;
+    display: block;
+}
+.container.blog p.image,
+.container.blog p.image-small {
+    text-align: center;
+}
+.container.blog p.image img {
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.25) ;
+}
+.container.blog p.image-small img {
+    max-width: 50%;
+}
+.container.blog .sub-title {
+    margin-top: 30px;
+}
+.container ul {
+    list-style: none;
+    padding-left: 0px;
+}
+table.table {
+    margin: 20px auto;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+table.table th,
+table.table td {
+    text-align: left;
+    padding: 8px 30px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+table.table tr:nth-of-type(odd) {
+    background-color: #f7f7f7;
+}
+
+</style>
+
+    <meta name="og:type" content="summary">
+    <meta name="og:title" content="Jason C">
+    <meta name="og:description" content="Projects by Jason Chavannes">
+    <meta name="og:image" content="https://jasonc.me/res/jasonc.png">
+    <meta name="twitter:site" content="@jasonchavannes">
+</head>
+<body>
+
+<div class="header">
+    <h1><a href="/">mkgll</a></h1>
+    <hr>
+</div>
+
+
+<div class="container">
+
+    <pre id="time" class="wrap">01011111 00100110 00110100 10110110</pre>
+    <pre id="typewriter" style="display: none;">Hello world. </pre>
+
+  {{ content }}
+
+</div>
+
+<div class="footer">
+
+    <hr>
+    <p><a href="contact">Jason Chavannes</a> © 2019</p>
+</div>
+
+
+
+
+</body></html>
